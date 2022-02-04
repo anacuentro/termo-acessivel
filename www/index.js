@@ -21,7 +21,7 @@ const describe = (indexes) => {
 
   return ords.reduce(
     (text, value, i, array) => {
-      return text + (i < array.length - 1 ? ', ' : ' and ') + value;
+      return text + (i < array.length - 1 ? ', ' : ' e ') + value;
     })
 };
 
